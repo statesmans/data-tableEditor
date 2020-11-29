@@ -58,13 +58,11 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 60px;
 }
 
 .textarea__input {
   width: 80%;
   border: 1px solid #1159a7;
-  border-right: 0;
   border-radius: 2px 0 0 2px;
 }
 
@@ -86,6 +84,10 @@
 
 .textarea__load-button {
   width: 20%;
+  min-width: 120px;
+  height: 77px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   color: #fff;
   font-size: 15px;
   background-color: #4177dc;
