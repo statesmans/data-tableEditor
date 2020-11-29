@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="header__burger">
+                <span class="header__burger-line"></span>
+            </div>
+        </header>
+
+        <div class="json-list json-list--disable" id="jsonList">
+
+            <div class="json-list__wraper">
+                <div class="key-list__wraper list-wraper">
+                    <h2 class="key-list__title" id="keyTitle">Key</h2>
+                    <div class="key-list__block" id="keyList"></div>
+                </div>
+                
+                <div class="value-list__wraper list-wraper">
+                    <h2 class="value-list__title" id="valueTitle">Value</h2>
+                    <div class="value-list__block" id="valueList"></div>
+                </div>
+            </div>
+            <div class="json-list__add-btn" id="addBtn">
+                
+            </div>
+
+        </div>
+
+        <div class="input-block" id="inputBlock">
+
+            <div class="input-block__textarea textarea">
+                <textarea class="textarea__input" name="JSON" id="strJSON" cols="30" rows="10" ></textarea>
+                <button class="textarea__load-button" id="loadBtn">Load</button>
+            </div>
+            <span> or </span>
+            <input class="input-block__file" type="file" id="fileJSON" >
+
+        </div>
+        
+
+
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
